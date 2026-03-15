@@ -1,1 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ body{
+    margin:40px;
+    background-color:#f4f4f4;
+}
+
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #470000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #FF2E2E;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 0;
+}
+
+.nav {
+background-color: #470000;
+color: white;
+}
+
+.tt {
+background-color: #470000;
+color: white;
+height: 100px;
+text-align: center;
+ vertical-align: text-top;
+}
+
+.double {
+text-align:center;
+border:4px solid black;
+background: #e6e6e6;
+padding:15px;
+font-weight:bold;
+position:relative;
+font-size: 70px;
+font-family: serif;
+text-align: center;
+color: black;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.double::before {
+  content: "🖊";
+  }
+  
+
+.tagline{
+    text-align:center;
+    font-style:italic;
+    font-family: "Georgia", serif;
+    margin-top:5px;
+}
+
+.info{
+    text-align: left;
+    margin:10px;
+    font-size:14px;
+    color: red;
+}
+
+.breaking{
+    background: red;
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-weight:bold;
+}
+
+.the {
+width:1500px;
+height:450px;
+display: block;
+margin: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-item {
+width: 180px;
+  display: block;
+margin: 95px;
+}
+
+.gallery-item img {
+  width: 300px;
+  height: 300px;
+}
+
+h1{
+    text-align:center;
+    border-bottom:3px solid black;
+    padding-bottom:10px;
+}
+
+.article{
+    background:white;
+    padding:20px;
+    margin-bottom:25px;
+    border-left:5px solid #333;
+}
+
+.article img{
+    width:100%;
+    max-height:250px;
+    object-fit:cover;
+    margin:10px 0;
+}
+
+h2{
+    margin-bottom:5px;
+}
+
+.subheading{
+    font-style:italic;
+    color:gray;
+}
+
+ </style>
+</head>
+<body>
+
+<div class="double">ARTICLEI
+</div>
+<div class="tagline"><i>“Connecting You to the Stories That Matter.”</i></div>
+
+<div class="breaking">
+🚨BREAKING NEWS! 🚨BREAKING NEWS! 🚨BREAKING NEWS! 🚨BREAKING NEWS! 🚨BREAKING NEWS! 🚨BREAKING NEWS! 🚨BREAKING NEWS! 🚨BREAKING NEWS! 🚨BREAKING NEWS!
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://cherryleigh.github.io/article/(a)fp.html">FRONT PAGE
+</a>
+  <a href="https://cherryleigh.github.io/magazine/(b)1st.html">LOCAL NEWS
+</a>
+  <a href="https://cherryleigh.github.io/magazine/(c)2nd.html">COMMUNITY FEATURES
+</a>
+  <a href="https://cherryleigh.github.io/magazine/(d)ud.html">OPINION PAGE
+  </a>
+<a href="https://cherryleigh.github.io/magazine/(d)ud.html">FUTURE OF OUR COMMUNITY</a>
+</div>
+
+
+
+<nav style="font-size:30px;cursor:pointer" class="nav" onclick="openNav()">&#9776;
+
+</nav>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<h1>LOCAL NEWS</h1>
+<div class="info">
+    𝄜 March 15, 2026 <br>
+    ☼ Morning Edition <br>
+    ⚲ Marikina City
+</div>
+
+
+
+<div class="article">
+<h2>Marikina, Makati implement 4-day workweek to conserve energy</h2>
+<p class="subheading">Residents enjoy the calm weather by the Marikina River in an Aug. 1, 2025 photo, as Marikina and Makati become among the latest cities to adopt a four-day workweek following President Ferdinand R. Marcos Jr.’s order for government agencies to implement energy conservation measures, including a four-day onsite work arrangement.</p>
+
+<img src="https://t3.ftcdn.net/jpg/05/30/27/72/360_F_530277285_vSBfkosdTKyGMIyLsBuVmoMSY57HgPTV.jpg">
+
+<p>The city governments of Marikina and Makati will implement a four-day workweek to conserve energy and reduce fuel use amid rising global oil prices caused by the ongoing Middle East crisis. Under Executive Order No. 05, Series of 2026, signed by Maan Teodoro, Marikina government offices will operate from Monday to Thursday, 8 a.m. to 7 p.m., starting March 9. Teodoro said the new schedule allows employees to complete their 40-hour workweek while reducing electricity consumption. He added that essential services and field operations, including the Disaster Risk Reduction and Management Office, street maintenance teams, public safety units, and other field operatives, will remain fully operational. The initiative aims to contribute to the national effort to conserve energy while maintaining city services for residents.</p>
+
+<p>In Makati, Nancy Binay announced that City Hall will temporarily adopt a four-day onsite workweek from 7 a.m. to 7 p.m., Monday to Thursday, starting March 16. The adjustment follows Memorandum Circular No. 114, which directs government agencies to implement energy conservation measures, including four-day onsite arrangements. Binay emphasized that while the city supports the national initiative, vital services will remain accessible to constituents. City officials assured the public that essential services will continue uninterrupted. Residents are encouraged to monitor My Makati on Facebook for updates on office schedules. This coordinated effort between local governments reflects a balance between energy conservation and public service delivery.</p>
+</div>
+
+<div class="article">
+<h2>Marikina cops arrest man wanted for stabbing co-worker with screwdriver</h2>
+<p class="subheading">Authorities arrested a 38-year-old man wanted for allegedly stabbing his co-worker with a screwdriver during a drinking session in Marikina City in July 2025.</p>
+
+<img src="https://mb.com.ph/manilabulletin/uploads/images/2026/03/12/85614.webp">
+
+<p>The Eastern Police District identified the suspect, known as “Wally,” who was listed as the sixth most wanted person by the Marikina City Police Station. He was arrested during a manhunt operation conducted by the District Mobile Force Battalion in coordination with the Marikina City Police Station and the Alitagtag Municipal Police Station in Barangay Pinagkurusan, Alitagtag, Batangas, on March 9. The arrest was made under a warrant issued by Judge Deogracias M. Natividad of the Regional Trial Court Branch 272 on February 2, 2026. Wally faces a charge of attempted murder under Article 248 of the Revised Penal Code of the Philippines.</p>
+
+<p>Authorities reported that the incident occurred at around 1:30 a.m. on July 31, 2025, in Dela Costa Homes, Barangay Barangka, Marikina City. The suspect and the victim, both co-workers and laborers, were drinking together when Wally allegedly pulled out a screwdriver from his waist and stabbed the victim in the chest without any apparent reason. The victim managed to escape and was immediately taken to the hospital, while the suspect fled the scene. Following the manhunt, Wally was apprehended and is now in the custody of the Marikina City Police Station. Police confirmed that the investigation is ongoing to ensure proper legal proceedings.</p>
+</div>
+
+<div class="article">
+<h2>Cai Cortez finally visits trending Maddox Jewelry showroom in Marikina</h2>
+<p class="subheading">Actress and local official Cai Cortez stops by the popular Marikina jewelry shop after frequently passing by it on her trips to Taytay.</p>
+
+<img src="https://cinemabravo.com/wp-content/uploads/2026/03/cai-cortez-finally-visits-trending-maddox-jewelry-showroom-in-marikina.png?w=1024">
+
+<p>Actress and Taytay councilor Cai Cortez recently visited the Maddox Jewelry showroom in Marikina, owned by founder and president Charo Cordial. The store has gained popularity online through live selling sessions and its participation in the “mine” culture, where thousands of buyers tune in to claim jewelry pieces known for their elegant designs and affordable prices. Cortez said she had often noticed the shop along J.P. Rizal Street in Concepcion Uno whenever she traveled to Taytay for her council duties, which eventually prompted her to stop by the showroom. Although she did not originally plan to purchase anything, she was impressed by the jewelry designs and their accessibility. As a mother, she explained that she usually prioritizes her children’s needs first, with any remaining budget often going toward helping her constituents.</p>
+
+<p>During her visit, Cortez also had an exclusive conversation with Cordial, who is known for her engaging and friendly hosting during the brand’s live selling sessions. In their discussion, the actress opened up about personal matters in her life, including her marriage, custody issues, and past controversies involving actors Baron Geisler and Tom Rodriguez. Seeing the jewelry pieces in person left a strong impression on her, and she expressed admiration for both the quality and affordability of the items. The full interview with Cortez is available on the Maddox Jewelry YouTube channel and the brand’s official Facebook page, which has over 1.6 million followers. Her visit highlights how the store’s online success has translated into real-world attention from celebrities and the community alike.</p>
+</div>
+
+<div class="article">
+<h2>DPWH, Marikina Officials Inspect Flood Control Projects Along Marikina River</h2>
+<p class="subheading">DPWH inspects Marikina River flood control projects to strengthen drainage and protect communities from seasonal flooding.</p>
+
+<img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/645453354_1439549241553661_180479779901124289_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFIH9nBP_Ttdi6Ct-1yYbiUBLpiTBqla_8EumJMGqVr_74djxWLoslK8QFqOJzCjdXj7ewrq0xAJGUTD1OnbuQL&_nc_ohc=xvPcvDdacNIQ7kNvwFt10k-&_nc_oc=AdmWNNFwWoPhCXnQ7_6cLR5fja-MdlyZhJ6lgFbUsFf_tZ_GqN3RGFoYW4yb_ABBJLQ&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=PZRk0B2CHeiRFU2F5EsIUg&_nc_ss=8&oh=00_AfxUqTAkYKKMlK9LbjKwcfTd5DTutnKptzOcucm-AhDBzw&oe=69BBED3B">
+
+<p>Vince Dizon, together with Marikina city officials and engineers, conducted an inspection of ongoing flood control projects along the Marikina River on Wednesday, March 4. The inspection focused on assessing the progress of infrastructure designed to reduce flooding risks and protect communities in low-lying areas. Authorities are reviewing improvements to drainage systems, riverbank reinforcement, and other measures to ensure effectiveness during the rainy season. Local engineers provided updates on project timelines, ongoing construction, and expected completion dates. The initiative is part of a broader effort to enhance the city’s resilience to flooding and natural hazards.</p>
+
+<p>Officials emphasized the importance of these projects in safeguarding residents, particularly those living in flood-prone neighborhoods. The assessment also aimed to identify areas that may require additional resources or technical adjustments to maximize flood mitigation. DPWH and city authorities stressed continued coordination to ensure timely project implementation and long-term sustainability. Residents were encouraged to stay informed about updates on flood control measures and ongoing infrastructure work. The inspection underscores the government’s commitment to improving public safety and protecting communities from seasonal disasters.</p>
+</div>
+
+<div class="article">
+<h2>Marikina lights bike lanes for safer night rides</h2>
+<p class="subheading">Marikina City installs 92 LED lamps along key bike lanes to enhance safety and promote active mobility for cyclists at night.</p>
+
+<img src="https://d0ctrine.com/wp-content/uploads/2014/08/img09156-20140813-0934-e1407906529856.jpg">
+
+<p>The Marikina City government switched on 92 new LED lamps along key bike lane corridors on Friday night to improve safety for cyclists and promote active mobility in the city. Mayor Maan Teodoro and Marikina First District Rep. Marcy Teodoro led the ceremonial lighting of the 2.6-kilometer stretch from Champagnat Street in Marikina Heights to Goodrich Village Subdivision in Concepcion Uno. Local officials explained that the installations focused on areas near creeks and tunnels to ensure safer passage for cyclists at night. The project is part of the city’s broader initiative to strengthen active mobility and encourage safe use of bike lanes. Teodoro emphasized that the lighting effort goes beyond aesthetics and is intended to ensure that bike lanes are properly used and safe for the public. Residents and cyclists welcomed the improvements, highlighting the city’s commitment to sustainable transportation.</p>
+
+<p>The mayor also noted that while the initial 2.6 kilometers have been illuminated, around eight more kilometers of bike lanes are set for improvement in the near future. Marikina currently has about 70 kilometers of existing bike lanes, with plans to expand them further to create an interconnected and sustainable mobility network. Teodoro reiterated that the project is more than decorative, stressing the importance of safety and proper usage of the bike lanes. City officials aim to continue enhancing infrastructure that supports cycling as a reliable and eco-friendly mode of transportation. The initiative also encourages residents to adopt active mobility while promoting public awareness about road safety. With these improvements, Marikina hopes to become a model for other cities seeking to integrate cycling into urban transport planning.</p>
+</div>
+
+</body>
+</html>
+
+
 
