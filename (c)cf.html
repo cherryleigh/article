@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #470000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #FF2E2E;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 0;
+}
+
+.nav {
+background-color: #470000;
+color: white;
+}
+
+.tt {
+background-color: #470000;
+color: white;
+height: 100px;
+text-align: center;
+ vertical-align: text-top;
+}
+
+.double {
+background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid #ffcc00;
+    position: relative;
+font-size: 70px;
+font-family: serif;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.double::before {
+  content: "🖊";
+  }
+  
+
+.tagline{
+  text-align:center;
+    font-style:italic;
+    font-family: monospace;
+    margin-top:5px;
+    background-color: #003366;
+    color: white;
+}
+
+.info{
+    text-align: left;
+    margin:10px;
+    font-size:14px;
+    color: red;
+}
+
+.breaking{
+   background: red;
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-weight:bold;
+    word-spacing: 7px;
+}
+
+.the {
+width: 100%;       
+    height: 400px;     
+    object-fit: cover; 
+    margin: 15px 0;
+    border: 2px solid #999;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-item {
+width: 180px;
+  display: block;
+margin: 95px;
+}
+
+.gallery-item img {
+  width: 300px;
+  height: 300px;
+}
+
+h1{
+    text-align:center;
+    border-bottom:3px solid black;
+    padding-bottom:10px;
+}
+
+.section{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-left:5px solid #444;
+}
+
+ol li{
+    margin-bottom:10px;
+}
+
+ul li{
+    margin-bottom:8px;
+}
+
+.feature-box{
+    background:#e6f2ff;
+    padding:15px;
+    border:2px dashed #3366cc;
+}
+
+ </style>
+</head>
+<body>
+
+<div class="double">ARTICLEI
+</div>
+<div class="tagline"><i>“Connecting You to the Stories That Matter.”</i></div>
+
+<div class="breaking">
+🚨BREAKING NEWS: MARIKINA CITY NEWS  🚨BREAKING NEWS: MARIKINA CITY NEWS  🚨BREAKING NEWS: MARIKINA CITY NEWS  🚨BREAKING NEWS: MARIKINA CITY NEWS
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://cherryleigh.github.io/article/(a)fp.html">FRONT PAGE
+</a>
+  <a href="https://cherryleigh.github.io/article/(b)ln.html">LOCAL NEWS
+</a>
+  <a href="https://cherryleigh.github.io/magazine/(c)2nd.html">COMMUNITY FEATURES
+</a>
+  <a href="https://cherryleigh.github.io/magazine/(d)ud.html">OPINION PAGE
+  </a>
+<a href="https://cherryleigh.github.io/magazine/(d)ud.html">FUTURE OF OUR COMMUNITY</a>
+</div>
+
+
+
+<nav style="font-size:30px;cursor:pointer" class="nav" onclick="openNav()">&#9776;
+
+</nav>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<h1>COMMUNITY FEATURES</h1>
+<div class="info">
+    𝄜 March 15, 2026 <br>
+    ☼ Morning Edition <br>
+    ⚲ Marikina City
+</div>
+
+<div class="section">
+<h2>Top 5 Community Issues</h2>
+
+<ol>
+<li>Traffic Congestion – Many cities experience heavy traffic every day, especially in places like Manila and Quezon City. This causes long travel times for workers and students.</li>
+
+<li>Flooding During Heavy Rain – Flooding often happens during the rainy season because of clogged drainage systems and improper waste disposal in many communities.</li>
+
+<li>Waste management – Improper disposal of garbage contributes to clogged drainage systems and environmental problems.</li>
+
+<li>Limited Job Opportunities – Many people find it difficult to get stable jobs, especially in rural areas. This can lead to poverty and migration to bigger cities.</li>
+
+<li>Access to Quality Education – Some schools lack enough classrooms, learning materials, or technology, which affects the quality of education students receive.</li>
+</ol>
+
+</div>
+  
+<div class="section">
+<h2>Upcoming Local Events</h2>
+
+<ul>
+<li>Marikina Car-Free Sundays</li>
+<li>Kalinaw Coffee Chill Party</li>
+<li>Local Coffee & Art Activities</li>
+<li>Sapatos Festival</li>
+<li>Community Workshops and Book Launch Events</li>
+</ul>
+
+</div>
+
+<div class="section feature-box">
+<h2>Did You Know?</h2>
+
+<p><b>Local Statistic:</b> Marikina City has one of the largest river park systems in Metro Manila, with Marikina River Park stretching several kilometers where residents can exercise, bike, and enjoy outdoor activities.</p>
+
+<p><b>Historical Fact:</b> The first pair of locally made leather shoes in Marikina was created by Don Laureano “Kapitan Moy” Guevarra, who helped start the city’s shoe industry.</p>
+
+<p><b>Fun Fact:</b>  Marikina is known for its clean streets and organized neighborhoods, and the city government strictly encourages proper waste segregation among residents and students.</p>
+
+</div>
+
+</body>
+</html>
